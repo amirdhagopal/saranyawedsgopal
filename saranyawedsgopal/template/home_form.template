@@ -1,0 +1,33 @@
+<div class="content-wrapper"><h1>Wedding Invite</h1></div>
+<div class="content-wrapper">
+<div data-role="listview"  data-theme="d" data-divider-theme="d">
+	<li data-role="list-divider">Bride Groom</li>
+	<li>
+			R. Amirdha Gopal <br/>
+			Thoughtworks Technologies Pvt Ltd, Bangalore
+	</li>
+	<li data-role="list-divider">Bride</li>
+	<li>
+			Dr. S. Saranya alias Keerthigha <br/>
+			G.V.N. Hospitals, Tiruchy
+	</li>
+	<li data-role="list-divider">Wedding Date</li>
+	<li>
+			17-January-2013, Thursday <br/>
+			Between 7:30 AM and 9:00 AM
+	</li>	
+	<li data-role="list-divider">Wedding Venue</li>
+	<li>
+			SAK Marriage Hall, Pudukkottai
+	</li>
+	<li data-role="list-divider">Reception Date</li>
+	<li>
+			20-January-2013, Sunday <br/>
+			Between 6:30 PM and 9:00 PM
+	</li>
+	<li data-role="list-divider">Reception Venue</li>
+	<li>
+			Classic Mahal, Thanjavur
+	</li>
+</div>	
+</div>
