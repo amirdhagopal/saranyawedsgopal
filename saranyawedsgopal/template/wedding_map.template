@@ -1,0 +1,23 @@
+<div class="content-wrapper"><h1>Wedding Invite</h1></div>
+				 // <script type="text/javascript">
+				 //         $(document).live("pageshow", function() {
+				 // 							 var map = $('#map_canvas');
+				 // 							 map.gmap().bind('init', function(){
+				 // 								 var clientPosition = new google.maps.LatLng(10.3826725, 78.8217195);
+				 //                 var markerOptions = { 
+				 //                   'bounds':true,
+				 //                   'position': clientPosition
+				 //                 };
+				 // 								 map.gmap({'zoom': 8, 'center': clientPosition, 'mapTypeId': google.maps.MapTypeId.ROADMAP});							 	   
+				 // 							 });
+				 // 							 
+				 // 
+				 // 							 //map.gmap({'center': clientPosition});
+				 //         });
+				 // </script>
+
+<div class="content-wrapper">
+	<div data-role="content" style="width:100%; height:100%; padding:0;"> 
+		<iframe style="width:100%; height:100%; padding:0;"  src="http://wikimapia.org/#lat=10.3810522&lon=78.8180743&z=17&l=0&m=b&search=SAK%20Marriage%20Hall"></iframe>
+	</div>
+</div>
