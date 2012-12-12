@@ -1,24 +1,24 @@
 <div class="content-wrapper"><h1>Wedding Invite</h1></div>
 <div class="content-wrapper">
 <div data-role="listview"  data-theme="d" data-divider-theme="d">
-	<li data-role="list-divider">Inviters</li>
-	<li><center>
+	<li data-role="list-divider" class="fontN">Inviters</li>
+	<li ><center class="fontN infoN">
 			R. Amirdha Gopal <br/>
                 & <br/>
 			SR. Saranya
 		</center>
 	</li>
-	<li data-role="list-divider">Wedding</li>
-	<li><center>
-			<time datetime="2013-01-17">17-January-2013, Thursday</time><br/>
+	<li data-role="list-divider" class="fontN">Wedding</li>
+	<li><center class="fontN">
+			<time datetime="2013-01-17" class="infoN">17-January-2013, Thursday</time><br/>
 
-			Between <time datetime="2013-01-17T02:00:00+5:30">7:30 AM</time> and <time datetime="2013-01-17T03:30:00+5:30">9:00 AM</time> <br/>
+			Between <time datetime="2013-01-17T02:00:00+5:30" class="infoN">7:30 AM</time> and <time datetime="2013-01-17T03:30:00+5:30" class="infoN">9:00 AM</time> <br/>
 			S.A.K Thirumana Mahal, South 3<sup>rd</sup> street, <a href="http://wikitravel.org/en/Pudukkottai_(district)">Pudukkottai.</a><br>
 		</center>
 	</li>	
-	<li data-role="list-divider">Reception</li>
-	<li><center>
-			<time datetime="2013-01-20T01:00:00+5:30">20-January-2013, Sunday, 6:30 PM</time><br/>
+	<li data-role="list-divider" class="fontN">Reception</li>
+	<li><center class="fontN">
+			<time datetime="2013-01-20T01:00:00+5:30" class="infoN">20-January-2013, Sunday, 6:30 PM</time><br/>
 			Classic Mahal, Rajan Road, Srinivasapuram, <a href="http://wikitravel.org/en/Thanjavur"> Thanjavur </a>.
 		</center>
 	</li>
