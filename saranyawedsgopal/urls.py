@@ -3,6 +3,5 @@ from controller import *
 
 import webapp2
 
-app = webapp2.WSGIApplication([(r'/', HomeHandler),
-                               (r'/wedding', WeddingHandler)],
+app = webapp2.WSGIApplication([(r'/', HomeHandler)],
                               debug=True)

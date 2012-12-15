@@ -35,18 +35,7 @@ class HomeHandler(BaseHandler):
         template_values['header'] = 'Saranya Weds Gopal'
     	
     	template_values['page_title'] = 'Saranya Weds Gopal'
-    	template_values['form_name'] = template_path + 'home_form.template'
 
     	template = jinja_environment.get_template(page_path)
     	self.response.out.write(template.render(template_values))
 
-class WeddingHandler(BaseHandler):
-    def get(self):
-        template_values = {}
-        template_values['header'] = 'Saranya Weds Gopal'
-    	
-    	template_values['page_title'] = 'Saranya Weds Gopal'
-    	template_values['form_name'] = template_path + 'wedding_map.template'
-
-    	template = jinja_environment.get_template(page_path)
-    	self.response.out.write(template.render(template_values))
