@@ -17,13 +17,49 @@
 	</head>
 	
 	<body>
-		<div data-role="page">
+		<div data-role="page" id="home">
   			<div data-role="header" data-theme="b">
   			</div>
-			{% include form_name %}
+			<div class="content-wrapper"><h1>Wedding Invite</h1></div>
+			<div class="content-wrapper">
+			<div data-role="listview"  data-theme="d" data-divider-theme="d">
+				<li data-role="list-divider" class="fontN titleN">Inviters</li>
+				<li ><center class="fontN infoN">
+						R. Amirdha Gopal <br/>
+			                & <br/>
+						SR. Saranya
+					</center>
+				</li>
+				<li data-role="list-divider" class="fontN titleN">Wedding</li>
+				<li><center class="fontN">
+						<time datetime="2013-01-17" class="infoN">17-January-2013, Thursday</time><br/>
+
+						Between <time datetime="2013-01-17T02:00:00+5:30" class="infoN">7:30 AM</time> and <time datetime="2013-01-17T03:30:00+5:30" class="infoN">9:00 AM</time> <br/>
+						<a href="#sak_map">S.A.K Thirumana Mahal</a>, South 3<sup>rd</sup> street, <a href="http://wikitravel.org/en/Pudukkottai_(district)">Pudukkottai</a><br>
+					</center>
+				</li>	
+				<li data-role="list-divider" class="fontN titleN">Reception</li>
+				<li><center class="fontN">
+						<time datetime="2013-01-20T01:00:00+5:30" class="infoN">20-January-2013, Sunday, 6:30 PM</time><br/>
+						<a href="#cm_map">Classic Mahal</a>, Rajan Road, Srinivasapuram, <a href="http://wikitravel.org/en/Thanjavur">Thanjavur</a>
+					</center>
+				</li>
+			</div>	
+			</div>
 			<div data-role="footer" data-theme="b">
-			  <center> Your presence will be highly appreciated. </center>
+			  <center> Your presence is highly appreciated. </center>
 			</div>
 		</div>
+		<div data-role="page" id="sak_map">
+			<div class="content-wrapper">
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=209484644217066237530.0004d0cf0760d9f4e438a&amp;t=h&amp;ll=10.381019,78.818106&amp;spn=0,0&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=209484644217066237530.0004d0cf0760d9f4e438a&amp;t=h&amp;ll=10.381019,78.818106&amp;spn=0,0&amp;source=embed" style="color:#0000FF;text-align:left">S. A. K Thirumana Mahal</a> in a larger map</small>
+		</div>
+		</div>
+		<div data-role="page" id="cm_map">
+			<div class="content-wrapper">
+				<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=209484644217066237530.0004d0e134d373c754d5b&amp;ie=UTF8&amp;ll=10.786726,79.12481&amp;spn=0,0&amp;t=h&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=209484644217066237530.0004d0e134d373c754d5b&amp;ie=UTF8&amp;ll=10.786726,79.12481&amp;spn=0,0&amp;t=h&amp;source=embed" style="color:#0000FF;text-align:left">Classic Mahal, Thanjavur</a> in a larger map</small>
+			</div>
+		</div>
+		
 	</body>
 </html>
